@@ -1,0 +1,12 @@
+[MC1-Homework-1: Implement standard deviation]
+[MC1-Homework-2: Install VM]
+[MC1-Project-1: Assess portfolio]
+[MC1-Project-2: Optimize a portfolio]
+[MC1-Homework-3: Create a Python midterm question]
+[MC2-Project-1: Build a market simulator]
+[MC2-Project-2: Implement bollinger bands, and create a simple trading strategy]
+[MC3-Homework-1: Create a Finance midterm question]
+Midterm Study Guide
+[MC3-Project-1]
+[MC3-Project-2]
+[MC3-Project-3]

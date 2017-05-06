@@ -1,0 +1,21 @@
+Which of the following methodologies may NOT be used to handle missing finantial data:
+a) to treat missing values as the same level as the last known value before the missing value
+b) to treat missing values as the same level as the first known value after the missing value
+c) 0, indicating missing information
+d) EM algorithm
+
+Answer: C.
+
+a) is valid, according to the textbook:
+"The common approach is to fill forward: to treat missing values as the same level as the last known value. So for minute-by-minute NASDAQ price data for August 22, 2013, the analyst would treat all values between 12:14 p.m. and 3:10 p.m. as the same value as at 12:13 p.m. (the last traded value)."
+
+b) is valid, according to the textbook:
+"If values are missing at the beginning of the series, filling forward isn’t an option. Then you would need to fill backward—use the first known value as also applying in the prior, missing periods."
+
+c) is incorrect. 0 here means pricing being 0, which is not equivelent to missing information.
+
+d) is correct. the EM algorithm can be applied to input missing data between the time series. An introduction about this algorithm can be found here:
+Dempster, A. P., M. N. Laird, and D. B. Rubin, 1977, Maximum likelihood from incomplete data via the EM algorithm, Journal of the Royal Statistical Society 39, 1-22
+
+Note:
+Last name startes with M, therefore, my topic is about QVMJ: Chapter 12: Overcoming Data Quirks to Design Trading Strategies (your choice).
